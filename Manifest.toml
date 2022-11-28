@@ -4,3 +4,6 @@ version = "0.5.1"
 description = "Mush, a build system for shell."
 license = "MIT"
 edition = "2022"
+
+[dev-dependencies]
+bats = "git "
