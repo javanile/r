@@ -4,3 +4,6 @@ cache/
 current
 versions/
 .rsvm_version
+bin/bats
+libexec/
+share/

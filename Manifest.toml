@@ -1,9 +1,12 @@
 [package]
 name = "r"
 version = "0.5.1"
-description = "Mush, a build system for shell."
+description = "Interactively Manage All Your Rust Versions"
 license = "MIT"
 edition = "2022"
 
 [dev-dependencies]
-bats = "git "
+bats = "git https://github.com/sstephenson/bats.git v0.4.0"
+
+[dev-dependencies-build]
+bats = "exec install.sh $MUSH_MANIFEST_DIR"
