@@ -1,7 +1,7 @@
 #!/usr/bin/env bats
 
 # load the rsvm
-source ./rsvm.sh
+source ./src/main.sh
 
 # override the RSVM_DIR
 export RSVM_DIR=`pwd`/bats_test

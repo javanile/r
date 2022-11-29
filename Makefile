@@ -1,4 +1,6 @@
 
+.PHONY: test
+
 ## ====
 ## Mush
 ## ====
@@ -11,5 +13,4 @@
 ## ====
 
 test:
-	@mush run delete -s -f server test-server
-	@mush run add server test-server
+	@bin/bats test/r.bats
