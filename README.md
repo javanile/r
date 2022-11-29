@@ -1,4 +1,4 @@
-# rsvm
+# `r` - Interactively Manage Your Rust Versions
 
 A version manager for rust.
 
