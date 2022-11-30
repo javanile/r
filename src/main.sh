@@ -35,6 +35,9 @@ main() {
     --version|-v)
       echo "v$RSVM_VERSION"
       ;;
+    load)
+      rsvm_load
+      ;;
     install)
       if [ -z "$2" ]
       then

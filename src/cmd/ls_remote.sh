@@ -11,6 +11,7 @@ rsvm_ls_remote()
   fi
 
   STABLE_VERSION=$(rsvm_ls_channel stable)
+  mkdir -p "$RSVM_DIR/cache"
   rsvm_file_download https://static.rust-lang.org/dist/index.txt "$RSVM_DIR/cache/index.txt"
   VERSIONS=$(cat "$RSVM_DIR/cache/index.txt" \
     | command egrep -o "^/dist/rust-$RSVM_NORMAL_PATTERN-$RSVM_PLATFORM.tar.gz" \
