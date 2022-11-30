@@ -5,13 +5,13 @@ A version manager for rust.
 ## Installation
 
 ```console
-curl -L https://raw.github.com/sdepold/rsvm/master/install.sh | sh
+curl get.javanile.org/r | sh
 ```
 
 or
 
 ```console
-wget -qO- https://raw.github.com/sdepold/rsvm/master/install.sh | sh
+wget -O- get.javanile.org/r | sh
 ```
 
 ### for fish-shell users

@@ -6,6 +6,8 @@
 
 module env
 module init
+module cmd
+module utils
 
 # shellcheck disable=SC2120
 main() {
